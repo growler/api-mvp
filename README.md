@@ -3,7 +3,7 @@
 Установить приложение через configuration interface:
 
 ```
-installapp "mvp-api" git git@github.com:growler/api-mockup.git origin/master
+installapp "mvp-api" git git@github.com:growler/api-mvp.git origin/master
 ```
 
 Создать целевой домен и пользователя, назначить приложение домену:
