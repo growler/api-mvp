@@ -1,0 +1,4 @@
+#!/usr/bin/env /bin/sh
+# скрипт запускается на узле FE в момент развертывания
+# приложения после скачивания репозитория
+exec rsync -a --delete --exclude ".git*" --exclude deploy . "$1"
